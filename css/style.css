@@ -14,6 +14,11 @@
 	--text-color-lighter: #f7f8fd;
 }
 
+img {
+	max-width: 100%;
+	object-fit: contain;
+}
+
 a {
 	text-decoration: none;
 }
@@ -109,9 +114,44 @@ button {
 
 /* ? HERO */
 
+.hero{
+	position: relative;
+	padding-top: 147px;
+	padding-bottom: 119px;
+}
+
+.hero__img {
+	position: absolute;
+	right: 0;
+	top: 0;
+	max-height: 100%;
+	width: 63%;
+	height: auto;
+}
+
+.hero__title {
+	width: 620px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.hero__title::after {
+	content: "";
+	width: 100px;
+	height: 20px;
+	background-image: url(../img/arrow.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
 .hero__text {
 	color: var(--text-color-semiDark);
 	font-size: 24px;
+	width: 620px;
+	margin-top: 0;
+	margin-bottom: 60px;
 }
 
 /* ? STEPS  */
