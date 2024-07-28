@@ -8,6 +8,10 @@ a {
 	text-decoration: none;
 }
 
+button{
+	font-family: inherit;
+}
+
 .page {
 	height: 100%;
 }
@@ -17,11 +21,55 @@ a {
 	margin: 0;
 
 	font-family: "GT Eesti Pro Display", sans-serif;
+}
+
+.btn-transparent{
+	color: #446DF6;
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 140%;
+	padding: 14px 25px;
+	border-radius: 6px;
+	border: 1px solid #e9ecf5;
+	background-color: transparent;	
+	cursor: pointer;
+}
+
+.btn-blue{
+	color: #eee;
+	font-family: inherit;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 140%;
+	padding: 18px 51px 17px;
+	border-radius: 6px;
+	border: 1px solid #446DF6;
+	background-color: #446DF6;
+	cursor: pointer;
+}
+
+.section-title{
+	color: #141b41;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 125%;
+}
+
+.section-title--small{
+	font-size: 32px;
+}
+
+.section-title--light{
+	color: #f7f8fd;
+}
+
+/* ? HEADER */
+.main-menu__link{
+	color: #72727E;
 	font-size: 18px;
 	line-height: 140%;
 }
 
-/* ? HEADER */
 
 /* ? HERO */
 
