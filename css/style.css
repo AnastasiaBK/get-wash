@@ -70,12 +70,37 @@ button{
 	line-height: 140%;
 }
 
-
 /* ? HERO */
+.hero__text{
+	color: #72727e;
+	font-size: 18px;
+	line-height: 140%;
+}
 
 /* ? STEPS */
+.steps__title{
+	color: #141b41;
+	font-size: 24px;
+	line-height: 135%;
+}
+
+.steps__desc{
+	color: #72727e;
+	font-size: 18px;
+	line-height: 135%;
+}
 
 /* ? EXCELLENTS */
+.excellents{
+	text-align: center;
+}
+
+.excellents__subtitle{
+	color: #72727e;
+	text-align: center;
+	font-size: 18px;
+	line-height: 140%;
+}
 
 /* ? APPS */
 
