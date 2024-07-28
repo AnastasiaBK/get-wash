@@ -9,3 +9,5 @@ Figma Mockup: <https://www.figma.com/design/cD7fJrxsWNCtmLVxmrsFka/GetWash-(My-C
 BEM (Block, Element, Modifier)
 
 ## Section 3: Add Styles
+
+## Section 4: Set Elements
