@@ -103,7 +103,34 @@ button{
 }
 
 /* ? APPS */
+.apps__subtitle{
+	color: #e9ecf5;
+	font-size: 18px;
+	line-height: 140%;	
+}
 
 /* ? REVIEW */
+.reviews__text{
+	color: #72727e;
+	font-size: 18px;
+	line-height: 140%;	
+}
+
+.reviews__author-name{
+	color: #141b41;
+	font-size: 24px;
+	line-height: 140%;
+}
+
+.reviews__author-position{
+	color: #72727e;
+	font-size: 18px;
+	line-height: 140%;	
+}
 
 /* ? FOOTER */
+.footer-menu__link{
+	color: #e9ecf5;
+	font-size: 18px;
+	line-height: 140%;
+}
