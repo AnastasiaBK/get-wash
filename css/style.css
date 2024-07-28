@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.page {
+	height: 100%;
+}
+
+.page__body {
+	height: 100%;
+	margin: 0;
+
+	font-family: "GT Eesti Pro Display", sans-serif;
+	font-size: 18px;
+	line-height: 140%;
+}
+
+/* ? HEADER */
+
+/* ? HERO */
+
+/* ? STEPS */
+
+/* ? EXCELLENTS */
+
+/* ? APPS */
+
+/* ? REVIEW */
+
+/* ? FOOTER */
