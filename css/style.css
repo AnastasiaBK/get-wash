@@ -248,7 +248,7 @@ button {
 }
 
 .excellents__item {
-	border-radius 10px;
+	border-radius: 10px;
 	background-color: #FFF;
 	box-shadow: 0px 16px 20px 0px rgba(20,27,65,0.05);
 	
@@ -297,8 +297,56 @@ button {
 
 /* ? APPS */
 
+.apps {
+	padding-top: 115px;
+	padding-bottom: 70px;
+}
+
+.apps__container {
+	border-radius: 20px;
+	background: rgba(120, 150, 248, 0.85);
+	position: relative;
+	padding-top: 52px;
+	padding-left: 70px;
+	padding-bottom: 54px;
+}
+
+.apps__img {
+	position: absolute;
+	right: 70px;
+	bottom: 0;	
+}
+
+.apps__title {
+	width: 400px;
+	margin-top: 0;	
+	margin-bottom: 17px;
+}
+
 .apps__subtitle {
 	color: var(--text-color-light);
+	width: 400px;
+	margin-top: 0;
+	margin-bottom: 43px;
+}
+
+.apps__list {
+	width: 400px;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+	display: flex;
+	column-gap: 19px;
+}
+
+.apps__link {
+	display: flex;
+}
+
+.apps__icon {
+	object-fit: cover;
+	border-radius: 8px;
 }
 
 /* ? REVIEW */
@@ -317,7 +365,9 @@ button {
 }
 
 /* ? FOOTER */
-
+.page-footer{
+	background: #141B41;
+}
 .footer-menu__link {
 	color: var(--text-color-light);
 }
