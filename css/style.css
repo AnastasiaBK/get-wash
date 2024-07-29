@@ -435,9 +435,31 @@ button {
 }
 
 /* ? FOOTER */
+
 .page-footer{
-	background: #141B41;
+	background-color: #141B41;
+	padding-top: 39px;
+	padding-bottom: 39px;
 }
+
+.page-footer__container{
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+}
+
+.footer-menu {
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+
+	display: flex;
+	column-gap: 57px;
+}
+
 .footer-menu__link {
 	color: var(--text-color-light);
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
