@@ -137,15 +137,25 @@
         </section>
 
         <section class="reviews">
-            <div class="container">
+            <div class="container reviews__container">
                 <h2 class="section-title reviews__title">App Reviews</h2>
 
-                <article class="reviews__item">
+                <article class="reviews__item reviews__item--active">
                     <p class="reviews__text">Thus, consultation with a broad asset entails the process of implementation and modernization of progressive development directions. The diverse and rich experience of the established structure of the organization provides a wide circle (of specialists) with participation in the formation of the development model.</p>
                     
                     <footer class="reviews__author">
                         <img src="./img/review-author.png" class="reviews__author-img" src="" alt="" width="80" height="80" />
                         <p class="reviews__author-name">John Doe</p>
+                        <p class="reviews__author-position">Driver</p>
+                    </footer>
+                </article>
+
+                <article class="reviews__item">
+                    <p class="reviews__text">Thus, consultation with a broad asset entails the process of implementation and modernization of progressive development directions. The diverse and rich experience of the established structure of the organization provides a wide circle (of specialists) with participation in the formation of the development model.</p>
+                    
+                    <footer class="reviews__author">
+                        <img src="./img/man.avif" class="reviews__author-img" src="" alt="" width="80" height="80" />
+                        <p class="reviews__author-name">Joe Swan</p>
                         <p class="reviews__author-position">Driver</p>
                     </footer>
                 </article>
@@ -160,18 +170,42 @@
                     </footer>
                 </article>
 
-                <article class="reviews__item">
-                    <p class="reviews__text">Thus, consultation with a broad asset entails the process of implementation and modernization of progressive development directions. The diverse and rich experience of the established structure of the organization provides a wide circle (of specialists) with participation in the formation of the development model.</p>
-                    
-                    <footer class="reviews__author">
-                        <img src="./img/review-author.png" class="reviews__author-img" src="" alt="" width="80" height="80" />
-                        <p class="reviews__author-name">John Doe</p>
-                        <p class="reviews__author-position">Driver</p>
-                    </footer>
-                </article>
-
-                <button class="reviews__slider-btn reviews__slider-btn--prev" type="button"><</button>
-                <button class="reviews__slider-btn reviews__slider-btn--next" type="button">></button>
+                <button class="reviews__slider-btn reviews__slider-btn--prev" type="button">
+                    <svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="20"
+							height="20"
+							viewBox="0 0 20 20"
+							fill="none"
+							class="reviews__slider-btn-arrow"
+						>
+							<path
+								d="M12.5 5L7.5 10L12.5 15"
+								stroke="#72727E"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+                </button>
+                <button class="reviews__slider-btn reviews__slider-btn--next reviews__slider-btn--active" type="button">
+                    <svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="20"
+							height="20"
+							viewBox="0 0 20 20"
+							fill="none"
+							class="reviews__slider-btn-arrow"
+						>
+							<path
+								d="M7.5 15L12.5 10L7.5 5"
+								stroke="#EEEEEE"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+					</svg>
+                </button>
             </div>    
         </section>
     </main>  
