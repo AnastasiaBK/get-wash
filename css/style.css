@@ -12,6 +12,9 @@
 	--text-color-semiDark: #72727e;
 	--text-color-light: #e9ecf5;
 	--text-color-lighter: #f7f8fd;
+	--bgr-color-dark: #141b41;
+	--bgr-color-accent: #446df6;
+	--bgr-color-lighter: #f7f8fd;
 }
 
 img {
@@ -201,7 +204,7 @@ button {
 	height: 60px;
 	padding: 12px;
 	border-radius: 6px;
-	background-color: #f7f8fd;
+	background-color: var(--bgr-color-lighter);
 }
 
 .step__title {
@@ -268,7 +271,7 @@ button {
 	width: 60px;
 	height: 60px;
 	border-radius: 6px;
-	background-color: #f7f8fd;
+	background-color: var(--bgr-color-lighter);
 	background-size: 36px 36px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -378,7 +381,7 @@ button {
 }
 
 .reviews__author {
-	border-top: 2px solid #f7f8fd;
+	border-top: 2px solid var(--bgr-color-lighter);
 	padding-top: 29px;
 
 	display: grid;
@@ -413,7 +416,7 @@ button {
 	width: 50px;
 	height: 50px;
 	border: none;
-	background-color: #f7f8fd;
+	background-color: var(--bgr-color-lighter);
 	cursor: pointer;
 	display: flex;
 }
@@ -427,7 +430,7 @@ button {
 }
 
 .reviews__slider-btn--active {
-	background-color: #446DF6;
+	background-color: var(--bgr-color-accent);
 }
 
 .reviews__slider-btn-arrow {
@@ -437,7 +440,7 @@ button {
 /* ? FOOTER */
 
 .page-footer{
-	background-color: #141B41;
+	background-color: var(--bgr-color-dark);
 	padding-top: 39px;
 	padding-bottom: 39px;
 }
