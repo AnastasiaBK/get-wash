@@ -466,3 +466,169 @@ button {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+@media screen and (max-width: 992px) {
+/*
+	.about-row{
+        flex-direction: column;
+    }
+
+    .about-left{
+        margin-bottom: 20px;
+    }
+
+    .about-right img{
+        max-width: 100%;
+    }
+*/		
+}
+
+@media screen and (max-width: 768px) {
+/*	
+    .logo img{
+        max-width: 150px;    
+    }
+
+    .menu-nav ul {
+        column-gap: 30px;    
+    }
+    
+    .footer-right{
+       column-gap: 50px; 
+    }
+*/	   
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: auto;
+		flex-direction: column;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.section-title {
+		width: auto;
+	}
+
+	.section-text{
+		width: auto;
+		margin-bottom: 20px;
+	}
+
+	.page-header {
+		padding-top: 25px;
+		padding-bottom: 0px;
+	}
+
+	.main-menu {
+		flex-direction: column;
+	}	
+
+	.hero{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.hero__img {
+		position: relative;
+		width: 100%;
+	}	
+
+	.start-steps {
+		position: relative;
+		padding-top: 20px;
+		padding-bottom: 20px;	
+	}
+	.steps-list {
+		width: auto;
+	}
+
+	.start-steps__img {
+		visibility: hidden;
+	}
+
+	.step__title {
+		font-size: 20px;
+	}
+	
+	.excellents {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.excellents__subtitle {
+		margin-bottom: 0;
+	}
+
+	.excellents__list {
+		padding-left: 0;
+	}
+
+	.excellents__item {
+		padding: 20px 20px 20px;
+	}	
+
+	.apps {
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+
+	.apps__container {
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 0px;
+	}
+
+	.apps__img {
+		position: relative;
+		right: 0;
+	}
+
+	.apps__list {
+		column-gap: 30px;
+	}	
+
+	.excellents__list {
+		display: list-item;
+	}
+
+	.reviews {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+	.reviews__item {
+		width: auto;
+	}
+
+	.reviews__author {
+		padding-top: 0;
+	}	
+
+	.reviews__slider-btn {
+		top: 0px;
+	}	
+
+	.footer-menu {
+		flex-direction: column;
+	}
+
+/*	
+    .header-row {
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-bottom: 20px;
+    }
+
+    .footer-row{
+        flex-direction: column;
+    }
+    .footer-left{
+        margin-bottom: 50px;
+    }
+*/		
+}

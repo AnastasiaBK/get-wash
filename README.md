@@ -11,3 +11,5 @@ BEM (Block, Element, Modifier)
 ## Section 3: Add Styles
 
 ## Section 4: Set Elements
+
+## Section 5: Adaptive CSS
